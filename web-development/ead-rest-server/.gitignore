@@ -1,0 +1,6 @@
+# PHP 
+
+.buildpath
+.settings/*
+
+/app/tmp/*
