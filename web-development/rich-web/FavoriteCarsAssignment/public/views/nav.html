@@ -1,0 +1,23 @@
+<!-- This is the header element of every page loaded in the application with ng-include directive -->
+<div class="jumbotron" id="top">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-9">
+				<h2 class="appName">Favorite Cars</h2>
+			</div>
+			<div class="col-sm-3">
+				<img class="navImg" src="images/logo2.png">
+			</div>
+		</div>
+		<!-- The navigation bar is hidden in the /login page and shown in all the other pages. Registration controller used here as the uder id is sent as a parameter in the url to be used in other pages. -->
+		<div id="navbar" class="row" ng-controller="RegistrationController" ng-show="currentPath !== '/login'">
+			<div class="col-sm-12">
+				<ul id="nav" class="nav navbar-nav navbar-right" >
+		        	<li class="active"><a ng-href="#/profile/{{currentUser.regUser}}">My Profile</a></li>
+		        	<li><a ng-href="#/search/{{currentUser.regUser}}">Search Car</a></li>
+		        	<li><a ng-href="#/login" ng-click="logout()">Log Out</a></li>
+		      	</ul>
+		    </div>
+		</div>
+	</div>
+</div>

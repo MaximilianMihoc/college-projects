@@ -1,0 +1,273 @@
+body{
+    padding-bottom: 100px;
+}
+
+/* Reference: My Assignment 1 for RichWeb*/
+.nav > li > a {
+    font-size: 20px;
+}
+
+#nav { 
+  width: 100%;
+  background-color: #277455;
+  list-style: none;  
+}
+
+.fixed {
+    position: fixed; 
+    top: 0; 
+    height: 70px; 
+    z-index: 1;
+}
+
+#nav li a {
+    display: block; 
+    padding: 8px 55.65px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    color: #fff; 
+    border-right: 1px solid #ccc; 
+    border-left: 1px solid #ccc; 
+}
+
+#nav li a:hover { 
+  background-color: #000; 
+}
+/*end of reference*/
+
+/*Reference: http://bootsnipp.com/snippets/featured/google-style-login*/
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading
+{
+    margin-bottom: 10px;
+}
+
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+/* End of reference */
+
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+
+#top {
+    position: relative;
+    color: #000;
+}
+.appName {
+    font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    font-style: normal;
+    font-variant: normal;
+}
+
+.jumbotron{
+  background-color: #277455;
+    padding: 5px;
+}
+
+.navImg {
+    width: 100%;
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid #DA3637;
+}
+
+input.ng-valid.ng-touched {
+  border: 1px solid #509D12;
+}
+
+.ng-invalid .btn {
+  background: gray;
+}
+
+.error {
+  color: red;
+  padding-bottom: 10px;
+}
+
+#profilePic{
+    height: 150px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin: auto; 
+}
+
+.userArea {
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.25);
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.slidePic{
+    max-width: 100%;
+    display: block;
+
+}
+
+hr{
+    color: #2A069C;
+    background-color: #2A069C;
+    height: 2px;
+}
+
+.select-style {
+    width: 80%;
+    height: 34px;
+    font-size: 16px;
+    line-height: 1;   
+}
+
+.searchItem {
+    padding: 5px;
+    border: 2px solid #2A069C;
+    border-radius: 0em 2em 0em 2em;
+    margin: 5px;
+}
+
+.carName {
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+}
+
+.text {
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+}
+
+.footer-img{
+  width: 100px;
+  padding-top: 1px;
+}
+
+.review {
+    border: 2px solid #2A069C;
+    border-radius: 0em 2em 0em 2em;
+    margin-bottom: 10px;
+}
+
+.reviewText {
+    padding-left: 30px;
+}
+
+.optionsDiv {
+    width: 100%;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #d0d0d0;
+    padding-left: 20px;
+}
+
+.optionsImage {
+    display: block;
+    margin: auto;
+}
+
+.userReviewPic {
+    width: 100px;
+}
+.reviewTime {
+    position: relative;
+    float: right;
+}
+
+.equipment-style {
+    
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.modal .modal-body {
+    max-height: 420px;
+    overflow-y: auto;
+}
+.equipmentElement {
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 0px 10px 10px 10px;
+    margin: 10px;
+    background:rgba(0,0,0,0.25);
+}
+
+.favCTitle {
+    text-align: center;
+}
+
+.favCarDivOff {
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 0px 10px 10px 10px;
+    margin: 10px;
+    background: rgba(0,0,0,0.25);
+}
+
+.favCarDivOn {
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 0px 10px 10px 10px;
+    margin: 10px;
+    background: rgba(0,255,0,0.25);
+}
+    
