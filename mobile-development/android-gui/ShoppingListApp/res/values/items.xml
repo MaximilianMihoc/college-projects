@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pizza">
+        <item>
+            <name>Classic |</name>
+            <price>27.35 |</price>
+            <description>Chicken breast with sliced mushrooms, mozzarella cheese and red onions. 150KCal |</description>
+            <image>pizza_classic</image>
+        </item>
+       
+        <item>
+            <name>Hawaiian |</name>
+            <price>25.50 |</price>
+            <description>Sliced ham and pinapples. 155KCal |</description>
+            <image>hawaiian</image>
+        </item>
+        <item>
+            <name>Margherita |</name>
+            <price>29.20 |</price>
+            <description>The classic mozzarella and tomato combo. 170KCal |</description>
+            <image>margherita</image>
+        </item>
+        <item>
+            <name>Chicken |</name>
+            <price>30 |</price>
+            <description>Chicken breast, mushrooms and caramelised onions. 170KCal |</description>
+            <image>ch_supreme</image>
+        </item>
+        <item>
+            <name>Sizzler |</name>
+            <price>33.35 |</price>
+            <description>Sizzling Cajun chicken, pepperoni, Roquito chilli peppers, mixed peppers and red onions. 180KCal |</description>
+            <image>pizza</image>
+        </item>
+        <item>
+            <name>Veggie One |</name>
+            <price>21.3 |</price>
+            <description>Green chillies, mixed peppers, red onion and cherry tomatoes. 156KCal |</description>
+            <image>veggie</image>
+        </item>
+        <item>
+            <name>BBQ Chicken |</name>
+            <price>35 |</price>
+            <description>Smoky BBQ sauce base with sizzling Cajun chicken, mixed peppers, red onion and green chillies with a BBQ drizzle. 176KCal |</description>
+            <image>bbq</image>
+        </item>
+        <item>
+            <name>Pepperoni |</name>
+            <price>24.99 |</price>
+            <description>Pepperoni, Pepperoni and more Pepperoni |</description>
+            <image>pepperoni</image>
+        </item>
+    </array>
+    <array name="drinks">
+        <item>
+            <name>Cola |</name>
+            <price>0.99 |</price>
+            <description>63KCal, 15.9g sugar, fat 0.0. 150ml |</description>
+            <image>diet_coke</image>
+        </item>
+        <item>
+            <name>Fanta |</name>
+            <price>1.29 |</price>
+            <description>Fanta is a sparkling orange soft drink with real fruit flavours and real fruit juice. 500ml |</description>
+            <image>fanta</image>
+        </item>
+        <item>
+            <name>Sprite |</name>
+            <price>0.99 |</price>
+            <description>Carbonated water, sugar, citric acid, natural lemon-lime flavourings. 150ml |</description>
+            <image>sprite</image>
+        </item>
+        <item>
+            <name>7 UP |</name>
+            <price>1.99 |</price>
+            <description>filtered carbonated water, natural flavors, citric acid, potassium citrate, potassium benzoate and aspartame. 150ml |</description>
+            <image>sevenup</image>
+        </item>
+        <item>
+            <name>Pepsi |</name>
+            <price>1.19 |</price>
+            <description>Pepsi is made with carbonated water, high fructose corn syrup, caramel color, sugar, phosphoric acid, caffeine, citric acid and natural flavors. 150ml |</description>
+            <image>pepsi</image>
+        </item>
+    </array> 
+    	
+    <array name="alcoholicDrinks">
+        <item>
+            <name>Jameson |</name>
+            <price>29.99 |</price>
+            <description>The principal ingredients in Jameson are malted barley, unmalted barley and pure water. 750ml |</description>
+            <image>jameson</image>
+        </item>
+        <item>
+            <name>Jack Daniels |</name>
+            <price>35 |</price>
+            <description>The mash for Jack Daniel\'s is made from corn, rye, and malted barley, and is distilled in copper stills. 750ml |</description>
+            <image>jd</image>
+        </item>
+        <item>
+            <name>Captain Morgan |</name>
+            <price>25.49 |</price>
+            <description>Made with molasses, water, mash and yeast, Captain Morgan Original Spiced rum is distilled in a continuous still. 750ml |</description>
+            <image>captain_morgan</image>
+        </item>
+        <item>
+            <name>Tequila |</name>
+            <price>39.99 |</price>
+            <description>Tequila is a regional specific name for a distilled beverage made from the blue agave plant. 750ml |</description>
+            <image>tequila</image>
+        </item>
+        
+    </array>
+   
+</resources>

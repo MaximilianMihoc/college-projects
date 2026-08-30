@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShoppingListApp</string>
+    <string name="title">Welcome</string>
+    <string name="action_settings">Settings</string>
+    <string name="nameHint">Enter Full Name</string>
+    <string name="jobHint">Enter Job Title</string>
+    <string name="genderNone">Not Specified</string>
+    <string name="genderM">Male</string>
+    <string name="genderF">Female</string>
+    <string name="emailHint">Enter email: E.g. name@dit.ie</string>
+    <string name="ageTxtView">Enter your Age</string>
+    <string name="totalTxtView">Enter Amount of money to spend</string>
+    <string name="noData">Sorry, No Data Available</string>
+    <string name="backButton">Back</string>
+    <string name="nextButton2">Proceed</string>
+
+    <string-array name="job_titles">
+        <item>Choose Job Title</item>
+        <item>Developer</item>
+        <item>Architect</item>
+        <item>Data Scientist</item>
+        <item>Engineer</item>
+        <item>Manager</item>
+        <item>Builder</item>
+        <item>Housekeeping</item>
+        <item>Programmer</item>
+    </string-array>
+
+    <string name="nextButton">Go to next Page</string>
+    <string name="title_activity_second_screen">SecondScreenActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_check_out">CheckOut</string>
+    <string name="qtyStr">Qty</string>
+    <string name="emailButton">Send Email</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="copyright">Developed By Maximilian Mihoc</string>
+
+</resources>
