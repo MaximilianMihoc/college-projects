@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Toscana Restaurant & Pizzeria</title>  
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="StyleSheet.css" type="text/css"/>
+</head>
+<body>
+	<div id="container">
+		<div id="head">
+			<a href="Aboutus.html">
+				<img class="img1" src="toscana/cool_dark_blue_453.jpg" alt="titleimg"/>
+			</a>
+		</div>
+		<div id="headtitle">
+			<a href="Aboutus.html">
+				<img class="imgmen2" src="toscana/title.jpg" alt="titleimg"/>
+			</a>
+		</div>
+		
+		<div id="follow">
+			<a href="http://www.facebook.com/pages/Toscana-City-Centre-Dublin2-Italian-Restaurant/138688302866116" target="_blank"><img class="fb" src="toscana/Facebook_icon_reflection.png" alt="fbicon"/></a>
+			<a href="https://twitter.com/toscana_city" target="_blank"><img class="twitter" src="toscana/Twitter-icons-web-design-31.jpg" alt="twittericon"/></a>
+			<a href="https://plus.google.com/116802277400914546972/posts" target="_blank"><img class="gmail" src="toscana/gmail_app_icons_1x.png" alt="gmailicon"/></a>
+		</div>
+		
+		<div id="part1">
+			<ul id="nav">
+				<li><a href="Aboutus.html">About Us</a></li>
+				<li><a href="Menus.html">Menus</a></li>
+				<li><a href="Location.html">Location</a></li>
+				<li><a href="Photos.html">Photos</a></li>
+				<li><a href="Openinghours.html">Opening hours</a></li>
+				<li><a href="Events.html">Events</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+		
+		<script>
+			function myFunction()
+			{
+				var x="";
+				var time=new Date().getHours();
+				if (time<24 && time>=12)
+				{
+					x="Yes, we are OPEN";
+				}
+				else
+				{
+				x="SORRY WE ARE CLOSED";
+				}
+				document.getElementById("demo").innerHTML=x;
+			}
+		</script>
+		<div id="oporclose">
+			<p>Check if the restaurant is open or closed</p>
+			<button onclick="myFunction()">Here</button>
+			<p id="demo"></p>
+		</div>
+		<div id="ophrtable">
+			<table>
+				<tr>
+					<td id="ophrbanner" colspan="2">
+						<h2>Toscana Restaurant & Pizzeria<br/>Opening Hours</h2>
+					</td>
+				</tr>
+				<tr class="ophfday"><td>Monday</td>
+					<td>12-24</td>
+				</tr>
+				<tr><td>Tuesday</td>
+					<td>12-24</td>
+				</tr>
+				<tr class="ophfday"><td>Wednesday</td>
+					<td>12-24</td>
+				</tr>
+				<tr><td>Thursday</td>
+					<td>12-24</td>
+				</tr>
+				<tr class="ophfday"><td>Friday</td>
+					<td>12-24</td>
+				</tr>
+				<tr><td>Saturday</td>
+					<td>12-24</td>
+				</tr>
+				<tr class="ophfday"><td>Sunday</td>
+					<td>12-24</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
+<!--_______________________________________________________________________________________
+									by Maximilian Mihoc
+___________________________________________________________________________________________-->

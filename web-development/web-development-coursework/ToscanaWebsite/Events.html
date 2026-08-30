@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Toscana Restaurant & Pizzeria</title>  
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="StyleSheet.css" type="text/css"/>
+</head>
+<body onload="offer()">
+	<script>
+		function offer()
+		{
+			alert("Hurry up, The wine tasting event in Toscana is coming. Make a reservation now. ")
+		}
+	</script>
+	<div id="container">
+		<div id="head">
+			<a href="Aboutus.html">
+				<img class="img1" src="toscana/cool_dark_blue_453.jpg" alt="titleimg"/>
+			</a>
+		</div>
+		<div id="headtitle">
+			<a href="Aboutus.html">
+				<img class="imgmen2" src="toscana/title.jpg" alt="titleimg"/>
+			</a>
+		</div>
+		
+		<div id="follow">
+			<a href="http://www.facebook.com/pages/Toscana-City-Centre-Dublin2-Italian-Restaurant/138688302866116" target="_blank"><img class="fb" src="toscana/Facebook_icon_reflection.png" alt="fbicon"/></a>
+			<a href="https://twitter.com/toscana_city" target="_blank"><img class="twitter" src="toscana/Twitter-icons-web-design-31.jpg" alt="twittericon"/></a>
+			<a href="https://plus.google.com/116802277400914546972/posts" target="_blank"><img class="gmail" src="toscana/gmail_app_icons_1x.png" alt="gmailicon"/></a>
+		</div>
+		
+		<div id="part1">
+			<ul id="nav">
+				<li><a href="Aboutus.html">About Us</a></li>
+				<li><a href="Menus.html">Menus</a></li>
+				<li><a href="Location.html">Location</a></li>
+				<li><a href="Photos.html">Photos</a></li>
+				<li><a href="Openinghours.html">Opening hours</a></li>
+				<li><a href="Events.html">Events</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div id="eventspic1">
+			<img class="evpic1" src="toscana/events.jpg" alt="evpic1"/>
+		</div>
+		<table id="evtable">
+			<tr>
+				<td colspan="2"> 
+					<h1 class="title1">Food & Wine tasting event at Toscana</h1>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img class="evpic21" src="toscana/download(1).jpg" alt="evpic1"/>
+				</td>
+				<td>
+					<img class="evpic22" src="toscana/download.jpg" alt="evpic2"/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<p id="text">THE REGIONS OF ITALY WINE TOUR... promising to be a night to be remembered.<br/>
+					The date:- Wednesday April 24th 2013...Time:- 19.15.......<br/>
+					The Region:- PIEDMONT  <br/>
+					Our last wine tasting was a sell out, please pre-purchase tickets to avoid disappointment PIEDMONT</p> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p id="text12">The evening will begin with a pre-dinner drinks reception in our cellar, 
+					followed by a specially designed five-course tasting menu with wine paired with each course. 
+					Your host has an extensive knowledge of wine production and will travel especially from Piemonte for this event.
+					He will welcome any questions you may have, to give you a greater understanding of the world famous region of Piemonte.<br/><br/>
+					The wines showcased for this event include the world famous Barolo and other exclusive wines that are of premium quality.
+					Places are limited. Tickets are priced based on wines. Tickets must be purchased in advance only. Tickets for this tasting 
+					are €42.50 per person inclusive of food and wine.</p>
+				</td>
+				<td>
+					<img class="evpic31" src="toscana/Pic_WineTastingRW.jpg" alt="evpic31"/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<p id="text13">To partake in this adventure, simply complete and submit the form below and ensure the availability of 
+					a table for you on what promises to be a very memorable evening filled with good company, enjoyable food and wonderful Italian wines.</p>
+					<br/><br/>
+				</td>
+			</tr>
+		</table>
+		<script>
+			function myFunction()
+			{
+				var x=document.getElementById("fname");
+				x.value=x.value.toUpperCase();
+			}
+		</script>
+
+		<div id="EventForm">
+			<br/><br/>
+			<form name="ReservationAndContactForm" method="post" action="mailto:zeid@coe.neu.edu"> 
+				<table class="form2">
+					<tr class="form">
+						<th class="form">
+							Items marked * must be completed
+						</th>
+					</tr>
+					<tr class="form">
+						<th class="form">
+							Name: <input name="firstName" id="fname" type="text" size="20" onchange="myFunction()" /> *
+						</th>
+					</tr>
+					<tr class="form">
+						<th class="form">
+							<input type="checkbox" id="rezerv" name="rezerv"  />
+							<label for="rezerv">Please check here if you wish to make a reservation</label>
+						</th>
+					</tr>
+					<tr class="form">
+						<th class="form">
+							Email: <input type="email" size="20"/> *
+							<br/> Toscana Guarantees never to sell, misuse or abuse your email.
+						</th>
+					</tr>
+					<tr class="form">
+						<th class="form">
+							Telephone: <input name="telephone" type="text" size="20" /> *
+						</th>
+					</tr>
+					<tr class="form">
+						<th class="form">
+							Number in Party: <select id="nrparty" name="nrparty" >  
+												<option value="0" selected>-Selected-</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+												<option value="5">5</option>
+												<option value="6">6</option>
+												<option value="7">7</option>
+												<option value="8">8</option>
+												<option value="9">9</option>
+												<option value="9+">9+</option>
+											</select> *
+						</th>
+					</tr>
+					<tr class="form">
+						<th class="form">
+							Comment: <br/><label for="coment"></label>
+									<textarea id="coment" name="coment" cols="40" rows="5"></textarea>
+						</th>
+					</tr>
+					<tr class="form">
+						<th class="form">
+							<input type="checkbox" id="join" name="join"  />
+							<label for="join">Yes to join the Loyalty Rewards - rewards you every time you visit!</label>
+							<br/>
+							<input type="submit"  value="Send" name="submitButton" />
+						</th>
+					</tr>
+				</table>
+			</form>
+			<br/><br/>
+		</div>
+	</div>
+</body>
+</html>
+<!--_______________________________________________________________________________________
+									by Maximilian Mihoc
+___________________________________________________________________________________________-->

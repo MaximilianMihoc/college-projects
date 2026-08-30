@@ -1,0 +1,42 @@
+/*----------Style Sheet----------*/
+
+	body
+	{	margin:auto;
+		background-image: url('images/images.jpg');
+		background-size:100% auto;		
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+	}
+	
+	img.login{ height:100px; width:300px; }
+	#header{ position:absolute; left: 700px; top: 30px; margin:auto; float:left; height: 60px; width:600px; background-color: rgba(255,0,0,0.4); }
+	#container{ position:absolute; left: 700px; top: 120px; margin:auto; float:left; }
+	#NewUser{ position:absolute; left: 800px; top: 250px; margin:auto; float:left; }
+	
+	#container2{ position:absolute; left: 700px; top: 150px; margin:auto; float:left; }
+	#NewuserImage{ position:absolute; left:30px; top: 50px; margin:auto; float:left; }
+	img.homebanner{ height:100px; width:700px; size:100%;}
+	
+	#LoginBanner { position:absolute; left: 700px; top: 10px; margin:auto; float:left; height: 20px; width:600px; background-color: rgba(0,255,0,0.4); }
+	img.logoutimg { height:100px; width:150px; position:absolute; left: 450px;}
+	#searchbook{ position:absolute; left: 350px; top: 200px; margin:auto; float:left; }
+	#viewreserved{ position:absolute; left: 700px; top: 200px; margin:auto; float:left; }
+	
+	#SearchForm { position:absolute; left: 150px; top:300px; float:left; width:500px;}
+	#searchbooktable { position:absolute; left: 700px; top:200px; float:left; width:500px; width:600px; background-color: rgba(255,0,0,0.2); color: #000000;}
+	#viewreservedbooks{ position:absolute; left: 450px; top:200px; width:500px; float:left; width:500px;}
+	img.homeicon{ height:80px; width:80px; }
+	
+	#bookimage { position:absolute; left: 200px; top:50px; float:left; width:500px;}
+	
+	#message { position:absolute; left: 700px; top:100px; float:left; }
+	#confmessage { position:absolute; left: 700px; top:150px; float:left; }
+	#usermessage { position:absolute; left: 1000px; top:240px; float:left; }
+	#passmessage{ position:absolute; left: 1000px; top:280px; float:left; }
+	#telmessage{ position:absolute; left: 1000px; top:470px; float:left; }
+	#mobmessage{ position:absolute; left: 1000px; top:510px; float:left; }
+	
+	
+	#menutable { position:absolute; left: 350px; top:200px; width:700px; float:left; background-color: rgba(255,0,0,0.9); color: #FFFFFF; }
+	tr.tablerow { background-color: rgba(0,0,0,0.8); color: #FFFFFF; width:100%;}
+	tr.tablerow2 { background-color: rgba(255,178,0,0.8); color: #000000; width:100%;}

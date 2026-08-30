@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Toscana Restaurant & Pizzeria</title>  
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="StyleSheet.css" type="text/css"/>
+</head>
+<body>
+	<div id="container">
+		<div id="head">
+			<a href="Aboutus.html">
+				<img class="img1" src="toscana/cool_dark_blue_453.jpg" alt="titleimg"/>
+			</a>
+		</div>
+		<div id="headtitle">
+			<a href="Aboutus.html">
+				<img class="imgmen2" src="toscana/title.jpg" alt="titleimg"/>
+			</a>
+		</div>
+		<div id="follow">
+			<a href="http://www.facebook.com/pages/Toscana-City-Centre-Dublin2-Italian-Restaurant/138688302866116" target="_blank"><img class="fb" src="toscana/Facebook_icon_reflection.png" alt="fbicon"/></a>
+			<a href="https://twitter.com/toscana_city" target="_blank"><img class="twitter" src="toscana/Twitter-icons-web-design-31.jpg" alt="twittericon"/></a>
+			<a href="https://plus.google.com/116802277400914546972/posts" target="_blank"><img class="gmail" src="toscana/gmail_app_icons_1x.png" alt="gmailicon"/></a>
+		</div>
+		
+		<div id="part1">
+			<ul id="nav">
+				<li><a href="Aboutus.html">About Us</a></li>
+				<li><a href="Menus.html">Menus</a></li>
+				<li><a href="Location.html">Location</a></li>
+				<li><a href="Photos.html">Photos</a></li>
+				<li><a href="Openinghours.html">Opening hours</a></li>
+				<li><a href="Events.html">Events</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+		
+		<div id="contactpic1">
+			<img class="contactpic1" src="toscana/contactus.jpg" alt="contactpic1"/>
+		</div>
+		<div id="contacttext">
+			<p id="text">We are delighted to welcome you to Toscana Restaurant Dame Street. <br/><br/>
+			Please use the form below to either make a reservation or simply just to make contact.<br/><br/>
+			Please note if you are making a reservation with short notice it is preferable that you call our branch directly on 01 6709785 rather than use this form.<br/><br/>
+			We accept booking requests for Lunch, Early Bird and Dinner for groups, private parties and individuals. Simply complete the from below and we will return to you in due course to confirm availability.
+		</div>
+		<div id="contactpic2">
+			<img class="contactpic2" src="toscana/images(5).jpg" alt="contactpic2"/>
+			<br/>
+			<img class="contactpic2" src="toscana/images(6).jpg" alt="contactpic2"/>
+		</div>
+		<script>
+			function myFunction()
+			{
+				var x=document.getElementById("fname");
+				x.value=x.value.toUpperCase();
+			}
+		</script>
+		<div id="ContactForm">
+			<br/><br/>
+			<form name="ReservationAndContactForm" method="post" action="mailto:zeid@coe.neu.edu"> 
+				<table class="form">
+					<tr class="form">
+						<th class="form">
+							Items marked * must be completed
+						</th>
+					</tr>
+					<tr class="form">
+						<th class="form">
+							Name: <input name="firstName" id="fname" type="text" size="20" onchange="myFunction()"/> *
+						</th>
+					</tr>
+					<tr class="form">
+						<th class="form">
+							<input type="checkbox" id="rezerv" name="rezerv"  />
+							<label for="rezerv">Please check here if you wish to make a reservation</label>
+						</th>
+					</tr>
+					<tr class="form">
+						<th class="form">
+							Email: <input type="email" size="20"/> *
+							<br/><b> Toscana Guarantees never to sell, misuse or abuse your email.</b>
+						</th>
+					</tr>
+					<tr class="form">
+						<th class="form">
+							Telephone:<input name="telephone" type="text" size="20" /> *
+						</th>
+					</tr>
+					<tr class="form">
+						<th class="form">
+							Comment: <br/><label for="coment"></label>
+									<textarea id="coment" name="coment" cols="40" rows="5"></textarea>
+						</th>
+					</tr>
+					<tr class="form">
+						<th class="form">
+							<input type="checkbox" id="join" name="join"  />
+							<label for="join">Yes to join the Loyalty Rewards - rewards you every time you visit!</label>
+							<br/>
+							<input type="submit"  value="Send" name="submitButton" />
+						</th>
+					</tr>
+				</table>
+			</form>
+			<br/><br/>
+		</div>
+	</div>
+</body>
+</html>
+<!--_______________________________________________________________________________________
+									by Maximilian Mihoc
+___________________________________________________________________________________________-->
