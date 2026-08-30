@@ -1,0 +1,4 @@
+DANI - Dynamic Artificial Non-Intelligence
+	DANI is what is known nowadays as a conversational agent, and it was inspired by the talking computers of science-fiction such a HAL, the Computer from Star Trek and Eddie from the Hitchhikers Guide to the Galaxy.
+	DANI starts out with no knowledge of the English language. You type a sentence and DANI responds with a sentence. As you interact with DANI, it learns more and more words and can have a conversation with you.
+	DANI keeps a list of every word it knows with a link to every word that follows each word in the list along with the count. This can be thought of as a graph of words. Each sentence you enter, DANI parses a list of words. The program then searches its word list for each of the words in the sentence you typed and if a match is found, DANI adds a link to the word following the word you typed. If the link already exists, then DANI updates the count for that link. 
